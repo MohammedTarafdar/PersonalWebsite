@@ -5,74 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="part-of-body">
-        <!--NevBer has to be added-->
+    
+    <div class="top-nav-bar">
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
 
-        <div>
+    <section class="part-of-body">
+
+        <div class="part-of-section">
             <h1>Hello, I'M</h1>
-            <h1>Mohammed Tarafdar</h1>
-            <p>A Test Automation Engineer and Neonate Web Developer</p>
-            <a href="#">Here I Am !</a>
+            <h1 id="profile-name">Mohammed Tarafdar</h1>
+            <p>A Test Automation Engineer and<br> Neonate Web Developer</p>
+            <a class="link-button" target="-blank" href="https://www.linkedin.com/in/mohammed-tarafdar-1415071b1/">Here I Am !</a>
         </div>
-        <div>
-            <img src="#" alt="Profile picture one" >
+        <div class="part-of-section">
+            <img class="picture profile-one" src="images/profile-one.png" alt="Profile picture one" >
         </div>
     </section>
 
     <section class="part-of-body">
-        <div>
-            <img src="#" alt="Profile picture two">
+        <div class="part-of-section">
+            <img class="picture" src="images/profile-two.png" alt="Profile picture two">
         </div>
-        <div>
-            <h2>ABOUT</h2>
-            <p>something about me</p>
-            <a href="#"></a>
-        </div>
-
-    </section>
-
-    <section class="part-of-body">
-        <h2>LIST OF WORKING PROJECT</h2>
-
-        <div>
-            <img src="#" alt="Ecomerce Web Project">
-            <h3>Hulu Lulu Inc.</h3>
-            <P>Hulu Lulu Inc. is one of the leading online open market place for small business owners.</P>
-        </div>
-
-        <div>
-            <img src="#" alt="Ecomerce Web Project">
-            <h3>Hulu Lulu Inc.</h3>
-            <P>Hulu Lulu Inc. is one of the leading online open market place for small business owners.</P>
-        </div>
-
-        <div>
-            <img src="#" alt="Ecomerce Web Project">
-            <h3>Hulu Lulu Inc.</h3>
-            <P>Hulu Lulu Inc. is one of the leading online open market place for small business owners.</P>
+        <div class="part-of-section">
+            <h3>ABOUT</h3>
+            <p id="about-me-p">I am <b>T</b>est <b>A</b>utomation <b>E</b>ngineer. I want be a <b>F</b>ull <b>S</b>tack <b>D</b>eveloper. I already learned the basic <strong>HTML</strong> and <strong>CSS</strong>. I can build any simple website. My goal is to build few more website and learn advance topics.</p>
+            <a class="link-button" target="_blank" href="images/thanks.png" download="#">Download CV</a>
         </div>
 
     </section>
 
-    <section>
-        <h1>WORK INQUIRY</h1>
-        <a href="#">Let's Chat</a>
+    <section id="project-section" class="/part-of-body">
+        <h2><span id="project-heading">RECENT</span> WORKING PROJECT</h2>
+
+        <div class="part-of-section project-list">
+            <img class="picture" src="images/why.jpg" alt="Ecomerce Web Project">
+            <h3>Hulu Lulu Inc.</h3>
+            <P>Hulu Lulu Inc. is one of the leading online open market place for small business owners.</P>
+        </div>
+
+        <div class="part-of-section project-list">
+            <img class="picture" src="images/why.jpg" alt="Ecomerce Web Project">
+            <h3>Hulu Lulu Inc.</h3>
+            <P>Hulu Lulu Inc. is one of the leading online open market place for small business owners.</P>
+        </div>
+
+        <div class="part-of-section project-list">
+            <img class="picture" src="images/why.jpg" alt="Ecomerce Web Project">
+            <h3>Hulu Lulu Inc.</h3>
+            <P>Hulu Lulu Inc. is one of the leading online open market place for small business owners.</P>
+        </div>
+
     </section>
 
-    <section>
-        <P> something need to be added</P>
+    <section id="inquiry-sec">
+
+        <div id="inquiry-shap">
+            <div class="part-of-inquiry">
+                <h5 id="inquiry-heading">WORK INQUIRY</h5>
+            </div>
+            <div class="part-of-inquiry">
+                <p id="chat-link" ><a class="chat-link-button"href="#">Let's Chat</a> </p>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <section id="additional">
+        <P id="added-something"> something need to be added</P>
     </section>
 
     <footer>
-        <P>STAY CONNECTED</P>
-        <a href="#">hello@design.com</a>
-        <div>
-            <img src="#" alt="one">
-            <img src="#" alt="Two">
-            <img src="#" alt="Three">
-        </div>
+        <section id="footer-section">
+            <p id="message">STAY CONNECTED</P>
+            <a class="email-link" target="_blank" href="mailto:tarafdar453@gmail.com">hello@design.com</a>
+            <div>
+                <img src="images/icon-one.png" alt="one">
+                <img src="images/icone-two.png" alt="Two">
+                <img src="images/icon-three.png" alt="Three">
+            </div>
+        </section>
+        
     </footer>
     
 </body>

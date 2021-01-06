@@ -1,0 +1,143 @@
+body {
+  color: rgb(59, 57, 57);
+  background-color: rgb(218, 219, 219);
+}
+
+section {
+  height: 500px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: "Redressed", cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  color: rgb(16, 16, 245);
+}
+
+.top-nav-bar {
+  margin: 30px 100px 50px 20px;
+  text-align: right;
+}
+
+.top-nav-bar a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(59, 57, 57);
+  font-weight: bold;
+}
+
+.top-nav-bar a:hover {
+  color: tomato;
+}
+#profile-name {
+  color: tomato;
+}
+
+.picture {
+  width: 100%;
+}
+
+.part-of-section {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(70deg, coral, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.about-me-p {
+  font-size: 16px;
+}
+
+/*   List of Project section    */
+
+#project-section {
+  background-color: rgb(195, 236, 236);
+  height: 700px;
+}
+
+#project-heading {
+  color: tomato;
+}
+.project-list {
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+}
+
+/*    Inquiry section   */
+
+#inquiry-sec {
+  height: 350px;
+}
+
+#inquiry-shap {
+  height: 350px;
+  background-image: url("images/inquiry.png");
+  background-repeat: no-repeat;
+  background-size: 85% 60%;
+  background-position: center;
+}
+.part-of-inquiry {
+  margin: 30px, 100px, 40px 20px;
+  float: left;
+  text-align: center;
+}
+
+#inquiry-heading {
+  font-size: 50px;
+  margin-top: 150px;
+  margin-left: 200px;
+  color: white;
+}
+#chat-link {
+  font-size: 16px;
+  margin-top: 170px;
+  margin-left: 300px;
+}
+.chat-link-button {
+  text-decoration: none;
+  background-image: linear-gradient(70deg, coral, tomato);
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+/*    additional section     */
+
+#additional {
+  height: 500px;
+  background-color: rgb(238, 176, 238);
+}
+
+#added-something {
+  text-align: center;
+  font-size: 40px;
+}
+
+/*   footer link */
+#footer-section {
+  height: 150px;
+  text-align: center;
+}
+#message {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
