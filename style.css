@@ -61,10 +61,26 @@ h3 {
   color: white;
 }
 
-.about-me-p {
-  font-size: 16px;
+#hello-paragraph {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+#about-me-paragraph {
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
+#span-for-c {
+  color: red;
+}
+
+#span-for-S1 {
+  color: green;
+}
+
+#span-for-S2 {
+  color: blue;
+}
 /*   List of Project section    */
 
 #project-section {
@@ -156,7 +172,7 @@ h3 {
 
 #additional {
   height: 550px;
-  background-color: rgb(238, 176, 238);
+  background-color: rgb(195, 236, 236);
 }
 
 #additional-sec-head {
