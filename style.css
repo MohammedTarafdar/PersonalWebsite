@@ -69,7 +69,11 @@ h3 {
 
 #project-section {
   background-color: rgb(195, 236, 236);
-  height: 700px;
+  height: 900px;
+}
+
+#full-project-heading {
+  padding: 100px 0px 20px 0px;
 }
 
 #project-heading {
@@ -79,6 +83,35 @@ h3 {
   width: 25%;
   float: left;
   margin-left: 5%;
+}
+
+.container {
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.project-picture {
+  height: 250px;
+  width: 250px;
+  margin-top: 15px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-heading {
+  width: 300px;
+}
+
+.project-detail {
+  width: 300px;
 }
 
 /*    Inquiry section   */
@@ -122,22 +155,80 @@ h3 {
 /*    additional section     */
 
 #additional {
-  height: 500px;
+  height: 550px;
   background-color: rgb(238, 176, 238);
 }
 
-#added-something {
+#additional-sec-head {
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+#great-statement {
   text-align: center;
   font-size: 40px;
 }
+#great-auther {
+  margin-top: 0px;
+  padding-right: 200px;
+  text-align: right;
+}
 
-/*   footer link */
+hr {
+  width: 75%;
+}
+
+#skil-heading {
+  text-align: center;
+}
+#add-skils {
+  text-align: left;
+}
+#skils-list {
+  list-style-type: none;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+#stars-symbol-html {
+  margin-left: 420px;
+  /*color: goldenrod;*/
+  font-size: 20px;
+}
+
+#stars-symbol-css {
+  margin-left: 440px;
+}
+.skil-status {
+  margin-left: 400px;
+}
+
+/*            footer link        */
 #footer-section {
   height: 150px;
   text-align: center;
+  margin-bottom: 100px;
 }
 #message {
   font-size: 24px;
   font-weight: 500;
   margin-top: 50px;
+}
+
+.email-link {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+#footer-icons {
+  height: 50%;
+  margin-top: 30px;
+}
+
+.single-footer-icon {
+  height: 50%;
+  padding: 10px;
 }
